@@ -1,0 +1,15 @@
+.hdwhtml5player{background:#000;overflow:hidden;position:relative}
+.hdwhtml5player video{height:100%;width:100%}
+.hdwhtml5player .hdw_left_wrap{float:left;position: absolute;top:0;width:160px;height: 100%;right: -160px; padding:0px;z-index:3;text-align: center;font-family: calibri;font-size:11px;}
+.hdwhtml5player .hdw_inner_left_wrap{cursor:pointer;float:right;position: absolute;top: calc(50% - 19px);left: -21px;padding: 12px 6px;border-top-left-radius: 6px;border-bottom-left-radius: 6px;}
+.hdwhtml5player .hdw_inner_left_wrap div#point_left{border-top-width: 6px;border-top-style: solid;border-top-color: transparent;border-bottom-width: 6px;border-bottom-style: solid;border-bottom-color: transparent;border-right-width: 7px;border-right-style: solid;}
+.hdwhtml5player .hdw_inner_left_wrap div#point_right{display:none;border-top-width: 6px;border-top-style: solid;border-top-color: transparent;border-bottom-width: 6px;border-bottom-style: solid;border-bottom-color: transparent;border-left-width: 7px;border-left-style: solid;}
+.hdwhtml5player .hdw_inner_right_wrap{ float:right;overflow: auto;width: 160px;height: calc(100% - 33px);padding: 5px 0px;}
+.hdwhtml5player .hdw_inner_top_wrap{text-transform: uppercase;font-size: 12px;padding: 4px;background: #444444;color: #fff;background: linear-gradient(rgb(72, 72, 72) 20%, rgb(39, 39, 39) 80%);border-bottom: 1px solid #414141;}
+.hdwhtml5player .hdw_on_subtitle{bottom: 40px;position: absolute;width: 100%;text-align: center;}
+.hdwhtml5player .hdw_on_subtitle p{color:#fff; margin: 0 20px; word-break: break-all;}
+.hdwhtml5player .hdw_inner_right_wrap div{padding: 10px 10px 1px 10px;}
+.hdwhtml5player .hdw_inner_right_wrap div p{font-size: 12px;font-family:calibri;line-height: 10px;}
+.hdwhtml5player .hdw_inner_right_wrap div img{cursor:pointer;height:75px; width:90%;}
+.widefat th {font-family:Arial, Helvetica, sans-serif;}
+div[class*="viewport"] a, a.hdwplayer-gallery, div[id*="slider"] a.prev, div[id*="slider"] a.next {text-decoration: none !important;border: 0px;box-shadow: none !important;}
